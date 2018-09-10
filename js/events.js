@@ -1,6 +1,6 @@
 //define functions here
 
-$(document).ready(function(){
+$(document).ready(function(){});
 
 function getIt() {
   $('p').on('click', function(key) {
@@ -16,4 +16,4 @@ function frameIt() {
    $('img').append('<link rel="stylesheet" type="text/css" href="style.css" />')
 })
 }
-});
+
