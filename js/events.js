@@ -14,7 +14,7 @@ function frameIt() {
   $('img').on('load', function() {
    
    $('img').addClass('tasty')
-})
+});
 }
 
 function pressIt() {
@@ -22,7 +22,7 @@ function pressIt() {
     if (key.which === 71) {
       alert('G was pressed');
     }
-  })
+  });
 }
 
 function submitIt() {
