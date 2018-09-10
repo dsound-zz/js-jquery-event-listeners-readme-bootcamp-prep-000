@@ -1,6 +1,6 @@
 //define functions here
 
-$(document).ready(function(){});
+$(document).ready(function(){
 
 function getIt() {
   $('p').on('click', function(key) {
@@ -13,7 +13,7 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function() {
    
-   $('img').append()  
+   $('img').append('<link rel="stylesheet" type="text/css" href="style.css" />')
 })
 }
-
+});
