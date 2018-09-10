@@ -18,7 +18,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $("typing").on('keypress', function(key) {
+  $("#typing").on('keypress', function(key) {
     if (key.which == 103) {
       alert('G was pressed');
     }
