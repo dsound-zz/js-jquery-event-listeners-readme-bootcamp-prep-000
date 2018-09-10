@@ -13,7 +13,7 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function() {
    
-   $('img').append('<link rel="stylesheet" type="text/css" href="style.css" />')
+   $('img').addClass('tasty')
 })
 }
 
